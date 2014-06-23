@@ -1,0 +1,9 @@
+# Chef
+# ====
+
+.DS_Store
+
+data_bags/users/*.json
+cookbooks/**/*
+nodes/*.json
+

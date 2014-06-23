@@ -1,0 +1,33 @@
+DEPENDENCIES
+  apt
+  build-essential
+    git: git://github.com/opscode-cookbooks/build-essential.git
+    revision: 400968913bfa8a4a5c9783b383c3b63899f2fe72
+  nginx-tlq
+    git: git://github.com/TalkingQuickly/nginx-tlq.git
+    revision: 863f0faadbc5c61e925cb7de10dba97fc695fa89
+  rails_gem_dependencies-tlq
+    git: git://github.com/TalkingQuickly/rails_gem_dependencies-tlq.git
+    revision: 86d443f34b93f59dc7a4ed7e51f46a42b2c79eb1
+  rbenv
+    git: git://github.com/fnichol/chef-rbenv.git
+    revision: 0a3018634bafe58ad21c6ee271af015220e444b9
+  sudo
+    git: git://github.com/opscode-cookbooks/sudo.git
+    revision: 8bbdff7302f7a86e18d1a3f029813c665b53b322
+  users
+    git: git://github.com/opscode-cookbooks/users.git
+    revision: fca9a42ab44dadbb98432c931dfc6c049ecc23ce
+
+GRAPH
+  apt (2.4.0)
+  build-essential (2.0.5)
+  java (1.22.0)
+  nginx-tlq (0.0.4)
+  rails_gem_dependencies-tlq (0.0.2)
+  rbenv (0.7.3)
+    java (> 1.4.0)
+    ruby_build (>= 0.0.0)
+  ruby_build (0.8.0)
+  sudo (2.6.1)
+  users (1.7.1)
