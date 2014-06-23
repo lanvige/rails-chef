@@ -6,6 +6,8 @@ cookbook 'build-essential', github: 'opscode-cookbooks/build-essential'
 cookbook 'sudo', github: 'opscode-cookbooks/sudo'
 cookbook 'apt'
 cookbook 'users', github: 'opscode-cookbooks/users'
+cookbook 'chef-solo-search'
+cookbook 'openssl'
 
 # Rails App
 cookbook 'nginx-tlq', github: 'TalkingQuickly/nginx-tlq'

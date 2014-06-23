@@ -3,9 +3,11 @@ DEPENDENCIES
   build-essential
     git: git://github.com/opscode-cookbooks/build-essential.git
     revision: 400968913bfa8a4a5c9783b383c3b63899f2fe72
+  chef-solo-search
   nginx-tlq
     git: git://github.com/TalkingQuickly/nginx-tlq.git
     revision: 863f0faadbc5c61e925cb7de10dba97fc695fa89
+  openssl
   rails_gem_dependencies-tlq
     git: git://github.com/TalkingQuickly/rails_gem_dependencies-tlq.git
     revision: 86d443f34b93f59dc7a4ed7e51f46a42b2c79eb1
@@ -22,8 +24,12 @@ DEPENDENCIES
 GRAPH
   apt (2.4.0)
   build-essential (2.0.5)
+  chef-solo-search (0.5.1)
+  chef-sugar (2.0.0)
   java (1.22.0)
   nginx-tlq (0.0.4)
+  openssl (2.0.0)
+    chef-sugar (>= 0.0.0)
   rails_gem_dependencies-tlq (0.0.2)
   rbenv (0.7.3)
     java (> 1.4.0)
