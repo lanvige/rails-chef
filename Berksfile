@@ -11,5 +11,5 @@ cookbook 'openssl'
 
 # Rails App
 cookbook 'nginx-tlq', github: 'TalkingQuickly/nginx-tlq'
-cookbook 'rails_gem_dependencies-tlq', github: 'TalkingQuickly/rails_gem_dependencies-tlq'
+# cookbook 'rails_gem_dependencies-tlq', github: 'TalkingQuickly/rails_gem_dependencies-tlq'
 cookbook 'rbenv', github: 'fnichol/chef-rbenv'

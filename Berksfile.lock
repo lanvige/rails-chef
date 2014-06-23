@@ -8,9 +8,6 @@ DEPENDENCIES
     git: git://github.com/TalkingQuickly/nginx-tlq.git
     revision: 863f0faadbc5c61e925cb7de10dba97fc695fa89
   openssl
-  rails_gem_dependencies-tlq
-    git: git://github.com/TalkingQuickly/rails_gem_dependencies-tlq.git
-    revision: 86d443f34b93f59dc7a4ed7e51f46a42b2c79eb1
   rbenv
     git: git://github.com/fnichol/chef-rbenv.git
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9
@@ -30,7 +27,6 @@ GRAPH
   nginx-tlq (0.0.4)
   openssl (2.0.0)
     chef-sugar (>= 0.0.0)
-  rails_gem_dependencies-tlq (0.0.2)
   rbenv (0.7.3)
     java (> 1.4.0)
     ruby_build (>= 0.0.0)
