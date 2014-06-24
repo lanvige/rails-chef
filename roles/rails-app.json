@@ -17,13 +17,13 @@
   },
 
   "json_class": "Chef::Role",
+  "chef_type": "role",
 
   "run_list": [
     "ruby_build",
     "rbenv::system"
   ],
   
-  "chef_type": "role",
   "override_attributes": {
   }
 }

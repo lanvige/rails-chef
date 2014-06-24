@@ -1,0 +1,17 @@
+{
+   "name": "redis-server",
+   "description": "Redis server",
+
+   "default_attributes": {
+      "redis": {
+          "dont_bind" : false
+       }
+   },
+   
+   "run_list": [
+      "redis-tlq"
+   ],
+
+   "json_class": "Chef::Role",
+   "chef_type": "role"
+}

@@ -1,16 +1,17 @@
 {
    "name": "nginx-server",
    "description": "Nginx server",
+
    "default_attributes": {
-
    },
-
-   "json_class": "Chef::Role",
 
    "run_list": [
       "nginx-tlq"
    ],
+
    "chef_type": "role",
+   "json_class": "Chef::Role",
+   
    "override_attributes": {
    }
 }
