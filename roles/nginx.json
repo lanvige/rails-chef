@@ -6,7 +6,7 @@
    },
 
    "run_list": [
-      "nginx-tlq"
+      "nginx"
    ],
 
    "chef_type": "role",
