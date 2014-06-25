@@ -20,6 +20,7 @@
   "chef_type": "role",
 
   "run_list": [
+    "rails_gem_dependencies",
     "ruby_build",
     "rbenv::system"
   ],

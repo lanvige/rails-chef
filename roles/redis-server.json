@@ -9,7 +9,7 @@
    },
    
    "run_list": [
-      "redis-tlq"
+      "redis-server"
    ],
 
    "json_class": "Chef::Role",

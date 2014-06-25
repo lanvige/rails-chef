@@ -1,0 +1,27 @@
+{
+    "name": "nginx", 
+    "description": "Installs the nginx web server from the nginx ppa", 
+    "long_description": "", 
+    
+    "maintainer": "Lanvige Jiang", 
+    "maintainer_email": "lanvige@gamil.com", 
+    "license": "none", 
+
+    "platforms": {
+        "ubuntu": ">= 0.0.0"
+    }, 
+    "dependencies": { }, 
+    "recommendations": { }, 
+    "suggestions": { }, 
+    "conflicting": { }, 
+    "providing": { }, 
+    "replacing": { }, 
+    "attributes": { }, 
+    "groupings": { }, 
+
+    "recipes": {
+        "nginx": "nginx server"
+    }, 
+
+    "version": "0.0.4"
+}

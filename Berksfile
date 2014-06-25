@@ -5,11 +5,13 @@ source 'https://api.berkshelf.com'
 cookbook 'build-essential', github: 'opscode-cookbooks/build-essential'
 cookbook 'sudo', github: 'opscode-cookbooks/sudo'
 cookbook 'apt'
-cookbook 'users', github: 'opscode-cookbooks/users'
-cookbook 'chef-solo-search'
+cookbook 'users'
 cookbook 'openssl'
+cookbook 'chef-solo-search'
+
 
 # Rails App
-cookbook 'nginx-tlq', github: 'TalkingQuickly/nginx-tlq'
-# cookbook 'rails_gem_dependencies-tlq', github: 'TalkingQuickly/rails_gem_dependencies-tlq'
 cookbook 'rbenv', github: 'fnichol/chef-rbenv'
+
+# cookbook 'nginx-tlq', github: 'TalkingQuickly/nginx-tlq'
+# cookbook 'rails_gem_dependencies-tlq', github: 'TalkingQuickly/rails_gem_dependencies-tlq'
