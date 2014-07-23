@@ -1,0 +1,8 @@
+{
+  "id": "ares",
+  "password": "$1$o9iD1exG$WlB4YLk7/jqaeWShxRZdF/",
+  "ssh_keys": ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKq50hLdDppl3ZHrytmqo/cUc88nQOIzNHPjbv2XdM5Aqos4cIZuZHvWIJ40pOF+Bp9D9J7w7wLgEFPdiJLfu/Hq2WEuHkcaKIOM3ihoDqAETfphpu/egk3O5f4PBddKuSw0h0MZrDncgEuUM8xVFqsB/j50/BaXm3yHC65DvO0cWNhoOeRk4su6dFVUYo0bfEnSl+60eS7ePAGWxwWjjQGJVaWYh2Joqm9wiyk4RNKQM/8cqw07lyi3pJdR2qPnshYKNC6ko110FFBBFY0DC56IymNM8AZ5nobUpm79a+h2RyVzNXHRP0LL+kKaQcAIVM7aL1N28Lby8LRzbc9KST lanvige@Mactop.local"
+  ],
+  "groups": [ "sysadmin"],
+  "shell": "\/bin\/bash"
+}
