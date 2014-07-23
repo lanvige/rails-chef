@@ -21,6 +21,7 @@
 
   "run_list": [
     "rails_gem_dependencies",
+    "nodejs",
     "ruby_build",
     "rbenv::system"
   ],
