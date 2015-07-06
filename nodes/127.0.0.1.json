@@ -1,0 +1,28 @@
+{
+  "environment": "production",
+  
+  "authorization": {
+    "sudo": {
+      // the deploy user specifically gets sudo rights
+      "users": ["ares"],
+      "groups": ["sudo"],
+      "passwordless": "false"
+    }
+  },
+
+  "deploy_user": {
+    "name": "ares",
+    "group": "sudo"
+  },
+
+  "run_list": [
+    "role[user]",
+    "role[nginx]",
+    "role[redis-server]",
+    "role[rails-app]"
+  ],
+  
+  "automatic": {
+    "ipaddress": "127.0.0.1"
+  }
+}

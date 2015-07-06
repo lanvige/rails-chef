@@ -7,7 +7,7 @@ package 'libcurl3'
 package 'libcurl3-dev'
 
 # mysql 2 gem
-package 'libmysql-ruby'
+# package 'libmysql-ruby'
 package 'libmysqlclient-dev'
 
 # package 'libmagickwand-dev'
